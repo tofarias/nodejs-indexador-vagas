@@ -1,0 +1,35 @@
+{
+  "name": "indexador-vagas",
+  "version": "1.0.0",
+  "description": "indexador de vagas",
+  "main": "app.js",
+  "author": "Tiago Farias <tiago.farias.poa@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "browser-sync": "^2.24.3",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {    
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-hbs": "^1.0.4",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "session": "^0.1.0"
+  }
+}
